@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SaaS Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <!-- Hamburger Menu -->
+      <!-- <button class="menu-toggle" aria-label="Open menu">☰</button> -->
+
+      <div class="logo">Launchify</div>
+      <!-- Desktop Navigation -->
+      <nav class="nav desktop-nav">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="btn-primary">Get Started</button>
+    </header>
+
+    <!-- Mobile menu -->
+    <div class="Launchify--area">
+      <div class="logo">Launchify</div>
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
+    </div>
+    <nav class="mobile-nav">
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+      <button class="btn-primary">Get Started</button>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+      <h1>Convert more visitors into paying SaaS customers</h1>
+      <p>Beautiful landing pages built for startups, SaaS, and creators.</p>
+      <div class="hero-buttons">
+        <button class="btn-primary">Start Free Trial</button>
+        <button class="btn-secondary">View Demo</button>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="features">
+      <h2>Why Choose Launchify?</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h3>Fast Setup</h3>
+          <p>Get your landing page online in minutes.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Responsive</h3>
+          <p>Looks great on all devices.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Clean Code</h3>
+          <p>Simple HTML, CSS & JS. Easy to customize.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="pricing">
+      <h2>Simple Pricing</h2>
+      <div class="pricing-cards">
+        <div class="price-card">
+          <h3 id="child">Starter</h3>
+          <p class="price" id="child">$19</p>
+          <button class="btn-primary price-btn">Buy Now</button>
+        </div>
+        <div class="price-card pro--price">
+          <h3>Pro</h3>
+          <p class="price">$49</p>
+          <button class="btn-primary">Buy Now</button>
+        </div>
+        <div class="price-card">
+          <h3>Team</h3>
+          <p class="price">$99</p>
+          <button class="btn-primary">Buy Now</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+      <h2>Trusted by Teams Worldwide</h2>
+
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <p>
+            “Launchify helped us launch faster with a clean, professional
+            design. Setup was incredibly easy.”
+          </p>
+          <h4>Alex Morgan</h4>
+          <span>Startup Founder</span>
+        </div>
+
+        <div class="testimonial-card">
+          <p>
+            “The layout and responsiveness are spot on. This template saved us
+            hours of development time.”
+          </p>
+          <h4>Sarah Lee</h4>
+          <span>Product Designer</span>
+        </div>
+
+        <div class="testimonial-card">
+          <p>
+            “Perfect for SaaS projects. Clean code, great structure, and very
+            easy to customize.”
+          </p>
+          <h4>Daniel Kim</h4>
+          <span>Frontend Developer</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          Is this template easy to customize?
+        </button>
+        <div class="faq-answer">
+          Yes, everything is written in clean HTML, CSS, and JS.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          Can I use it for commercial projects?
+        </button>
+        <div class="faq-answer">Yes, with a commercial license.</div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <div class="contact-content">
+        <div class="contact-text">
+          <h2>Get in Touch</h2>
+          <p>
+            Have questions about Launchify or need help choosing a plan? Send us
+            a message and we’ll get back to you within 24 hours.
+          </p>
+          <!-- <p class="contact-email">aimhighdigitals.com</p> -->
+          <button class="btn-primary send-mail">
+            <a href="mailto:aimhighdigitals@gmail.com" id="sendmail">
+              SEND MAIL
+            </a>
+          </button>
+        </div>
+
+        <!-- <form class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" rows="4" required></textarea>
+          <button type="submit" class="btn-primary">Send Message</button>
+        </form> -->
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+      <p>© 2025 Launchify. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  color: #111;
+  line-height: 1.6;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: white;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.desktop-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.desktop-nav a {
+  text-decoration: none;
+  color: #555;
+}
+
+.desktop-nav a:hover {
+  color: #4f46e5;
+  font-weight: 700;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  width: 25px;
+  height: 3px;
+  background: #111;
+}
+
+.mobile-nav {
+  display: none;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background: white;
+}
+
+.mobile-nav a {
+  text-decoration: none;
+}
+
+.mobile-nav.active {
+  display: flex;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #6366f1, #4f46e5);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 2.6rem;
+  margin-bottom: 15px;
+}
+
+.hero-buttons {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #6366f1, #4f46e5);
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.pricing,
+.contact {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.features {
+  /* background-color: rgba(0, 0, 0, 0.857); */
+  padding: 80px 20px;
+  color: black;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.features > h2 {
+  margin-bottom: 35px;
+}
+
+.feature-grid,
+.testimonial-grid,
+.pricing-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.testimonials {
+  text-align: center;
+  background-color: #4f46e5;
+  padding: 40px 20px;
+}
+
+.testimonials > h2 {
+  margin-bottom: 25px;
+}
+
+.feature-grid,
+.testimonial-grid {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.feature-card-pink {
+  background: rgb(197, 26, 55);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  color: white;
+  text-align: center;
+}
+
+.feature-card-yellow {
+  background: rgb(255, 170, 0);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  color: white;
+  text-align: center;
+}
+
+.feature-card,
+.testimonial-card,
+.price-card {
+  background: #4f46e5;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  color: white;
+  text-align: center;
+}
+
+.testimonial-card-blue {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  color: #4f46e5;
+  text-align: center;
+}
+
+.price-card > * {
+  margin: 10px;
+}
+
+.pricing > h2 {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.highlighted {
+  border: 2px solid #4f46e5;
+}
+
+.billing-toggle {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.contact {
+  margin-top: 35px;
+}
+
+.contact-email {
+  padding-top: 15px;
+}
+
+.contact-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px;
+  background: #f3f4f6;
+}
+
+.btn-primary > a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  .contact-content {
+    grid-template-columns: 1fr;
+  }
+}

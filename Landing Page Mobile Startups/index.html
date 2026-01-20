@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AppLaunch — Mobile App Startup Landing Page</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">AppLaunch</div>
+
+      <nav class="nav desktop-nav">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <nav class="mobile-nav">
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+      <button class="btn-primary">Start Free Trial</button>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+      <h1>Convert App Visitors Into Active Users</h1>
+      <p>
+        A high-converting landing page built specifically for mobile app
+        startups. Launch faster, validate ideas, and grow downloads.
+      </p>
+      <div class="hero-buttons">
+        <button class="btn-primary">Start Free Trial</button>
+        <button class="btn-secondary">View Demo</button>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="features">
+      <h2>Built for Mobile App Growth</h2>
+
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h3>App-Focused Design</h3>
+          <p>
+            Layouts optimized to showcase mobile apps and increase installs.
+          </p>
+        </div>
+        <div class="feature-card-pink">
+          <h3>Fast & Lightweight</h3>
+          <p>No frameworks. Loads instantly and scores high on performance.</p>
+        </div>
+        <div class="feature-card-yellow">
+          <h3>Conversion-Optimized</h3>
+          <p>Clear CTAs, trust signals, and sections that drive action.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="testimonials">
+      <h2>Trusted by Early-Stage App Teams</h2>
+
+      <div class="testimonial-grid">
+        <div class="testimonial-card-blue">
+          <p>
+            “We used AppLaunch to validate our MVP and hit 1,000 downloads in
+            our first week.”
+          </p>
+          <h4>Alex Morgan</h4>
+          <span>Mobile App Founder</span>
+        </div>
+
+        <div class="testimonial-card-blue">
+          <p>
+            “Clean layout, great mobile experience, and easy to customize.
+            Exactly what we needed.”
+          </p>
+          <h4>Sarah Lee</h4>
+          <span>Product Designer</span>
+        </div>
+
+        <div class="testimonial-card-blue">
+          <p>
+            “This landing page helped us convert visitors into beta users
+            quickly.”
+          </p>
+          <h4>Daniel Kim</h4>
+          <span>Startup Developer</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing" class="pricing">
+      <h2>Simple Pricing</h2>
+
+      <div class="billing-toggle">
+        <span>Monthly</span>
+        <input type="checkbox" id="billingToggle" />
+        <span>Yearly <strong>(Save 20%)</strong></span>
+      </div>
+
+      <div class="pricing-cards">
+        <div class="price-card">
+          <h3>Starter</h3>
+          <p class="price" data-monthly="19" data-yearly="15">$19</p>
+          <button class="btn-primary">Get Started</button>
+        </div>
+
+        <div class="price-card highlighted">
+          <h3>Pro</h3>
+          <p class="price" data-monthly="49" data-yearly="39">$49</p>
+          <button class="btn-primary">Start Free Trial</button>
+        </div>
+
+        <div class="price-card">
+          <h3>Team</h3>
+          <p class="price" data-monthly="99" data-yearly="79">$99</p>
+          <button class="btn-primary">Contact Sales</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <div class="contact-content">
+        <div class="contact-text">
+          <h2>Have Questions?</h2>
+          <p>
+            Want to know if AppLaunch is right for your mobile app? Reach out
+            and we’ll respond within 24 hours.
+          </p>
+          <p class="contact-email">
+            <button class="btn-primary">
+              <a
+                href="mailto:davidbarnabas098@gmail.com?subject=AppLaunch%20Inquiry"
+              >
+                Send Email
+              </a>
+            </button>
+          </p>
+        </div>
+
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" rows="4" required></textarea>
+          <button class="btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© 2025 AppLaunch. Built for mobile app startups.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
