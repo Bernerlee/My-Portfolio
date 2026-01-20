@@ -1,32 +1,32 @@
-*{margin: 0;
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
-
 }
-.main_box{
+.main_box {
   position: relative;
   background: black;
   background-size: cover;
   height: 100vh;
   width: 100%;
 }
-.main_box .sidebar_menu{
+.main_box .sidebar_menu {
   position: fixed;
   height: 100vh;
   width: 280px;
   left: 0px;
   background: black;
-  box-shadow: 0 0  6px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
 }
-.sidebar_menu .logo{
+.sidebar_menu .logo {
   position: absolute;
   width: 100%;
   height: 80px;
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
-.sidebar_menu .logo a{
+.sidebar_menu .logo a {
   color: #fff;
   font-size: 30px;
   font-weight: 700;
@@ -36,60 +36,58 @@
   line-height: 60px;
   text-decoration: none;
 }
-.sidebar_menu .menu{
+.sidebar_menu .menu {
   position: absolute;
   top: 80px;
   width: 100%;
 }
-.sidebar_menu .menu li{
+.sidebar_menu .menu li {
   margin-top: 6px;
   padding: 14px 20px;
   list-style-type: none;
   margin-left: 0;
   transition: box-shadow, border-left 0.5s;
 }
-.sidebar_menu .menu i{
+.sidebar_menu .menu i {
   color: #fff;
   color: 20px;
   padding-right: 10px;
-
 }
-.sidebar_menu .menu a{
+.sidebar_menu .menu a {
   color: #fff;
   font-size: 20px;
   text-decoration: none;
 }
-.sidebar_menu .menu li:hover{
+.sidebar_menu .menu li:hover {
   border-left: 1px solid #fff;
   box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
 }
-.cta{
+.cta {
   position: absolute;
   bottom: 335px;
   width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
-.cta a{
+.cta a {
   color: #fff;
   text-decoration: none;
   font-size: 25px;
   font-weight: 500;
 }
-.cta li{
+.cta li {
   padding: 14px 20px;
 }
-.cta li:hover{
+.cta li:hover {
   border-left: 1px solid #fff;
   box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
 }
-.sidebar_menu .social_media{
+.sidebar_menu .social_media {
   position: absolute;
   left: 25%;
   bottom: 20px;
   transform: translateX(-11%);
-  
 }
-.social_media i{
+.social_media i {
   padding: 5px;
   margin: 7px;
   color: #fff;
@@ -97,13 +95,13 @@
   font-size: 20px;
   transition: all 0.2s linear;
 }
-.social_media i:hover{
+.social_media i:hover {
   opacity: 1;
 }
-#check{
+#check {
   display: none;
 }
-.main_box .btn_one i{
+.btn_one {
   color: #fff;
   font-size: 30px;
   font-weight: 700;
@@ -115,31 +113,31 @@
   opacity: 1;
   transition: all 0.3s linear;
 }
-.sidebar_menu .btn_two i{
-font-size: 25px;
-color: #fff;
-line-height: 60px;
-position: absolute;
-left: 240px;
-top: 10px;
-cursor: pointer;
-opacity: 0;
-transition: all 0.3s linear;
+.sidebar_menu .btn_two i {
+  font-size: 25px;
+  color: #fff;
+  line-height: 60px;
+  position: absolute;
+  left: 240px;
+  top: 10px;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.3s linear;
 }
-.btn_one i:hover{
+.btn_one i:hover {
   font-size: 24px;
 }
-#check:checked ~.sidebar_menu{
+#check:checked ~ .sidebar_menu {
   left: 0px;
 }
-#check:checked ~.btn_one i{
+#check:checked ~ .btn_one i {
   opacity: 0;
 }
-#check:checked ~.sidebar_menu .btn_two i{
+#check:checked ~ .sidebar_menu .btn_two i {
   opacity: 1;
 }
 
-.real_body{
+.real_body {
   position: relative;
   left: 145px;
   top: 20px;
@@ -147,36 +145,45 @@ transition: all 0.3s linear;
   margin: auto;
   width: calc(100% - 290px);
 }
-.real_body h2{
+.real_body h2 {
   margin-top: 20px;
   margin-bottom: 10px;
 }
-.real_body h1{
+.real_body h1 {
   margin-bottom: 10px;
 }
-.real_body p{
+.real_body p {
   line-height: 22px;
 }
-.real_body h4{
+.real_body h4 {
   margin-bottom: 5px;
 }
-.owner_profile p{
+.owner_profile p {
   margin-top: 5px;
 }
-.stylist_one, .stylist_two, .stylist_three, .stylist_four{
+.stylist_one,
+.stylist_two,
+.stylist_three,
+.stylist_four {
   margin-top: 15px;
-  border: 1px solid  rgba(255, 255, 255, 0.3)
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
-.stylist_one img, .stylist_two img, .stylist_three img, .stylist_four img{
+.stylist_one img,
+.stylist_two img,
+.stylist_three img,
+.stylist_four img {
   border-radius: 50%;
   float: left;
   margin-right: 25px;
 }
-.stylist_one p, .stylist_two p, .stylist_three p, .stylist_four p{
+.stylist_one p,
+.stylist_two p,
+.stylist_three p,
+.stylist_four p {
   margin-top: 15px;
   line-height: 60px;
 }
-.anime{
+.anime {
   padding: 50px;
   text-align: center;
   margin-bottom: 10px;
@@ -184,27 +191,59 @@ transition: all 0.3s linear;
   transition: transform 3s linear;
   animation: execute 10s linear infinite normal;
 }
-.anime h2{
+.anime h2 {
   font-weight: 700;
   word-spacing: 5px;
 }
 @keyframes execute {
-  0% {background-color: black;}
-  25% {background-color: brown;}
-  40% {background-color: blueviolet;}
-  60% {background-color: chocolate;}
-  75% {background-color: aqua;}
-  100% {background-color: chartreuse;}
+  0% {
+    background-color: black;
+  }
+  25% {
+    background-color: brown;
+  }
+  40% {
+    background-color: blueviolet;
+  }
+  60% {
+    background-color: chocolate;
+  }
+  75% {
+    background-color: aqua;
+  }
+  100% {
+    background-color: chartreuse;
+  }
 }
-.anime:hover{
- transform: rotateY(360deg);
+.anime:hover {
+  transform: rotateY(360deg);
 }
-.hairtypes{
+.hairtypes {
   display: flex;
   justify-content: space-evenly;
   background-color: #fff;
   color: black;
   text-align: center;
+}
+
+.flex_reviews {
+  display: flex;
+}
+.review_one a,
+.review_two a,
+.review_three a {
+  color: rgb(235, 235, 77);
+}
+@media screen and (max-width: 1000px) and (max-width: 1200px) {
+  .hairtypes {
+    display: flex;
+    flex-flow: column wrap;
+  }
+}
+
+.section--hidden {
+  visibility: hidden;
+  transform: translateY(8rem);
 }
 
 /*.hairtype_one, .hairtype_two, .hairtype_three{
@@ -226,15 +265,3 @@ transition: all 0.3s linear;
   float: right;
   margin-right: 0;
 }*/
-.flex_reviews{
-  display: flex;
-}
-.review_one a, .review_two a, .review_three a{
-  color: rgb(235, 235, 77);
-}
-@media screen and (max-width: 1000px) and (max-width: 1200px){
-  .hairtypes {
-    display: flex;
-    flex-flow: column wrap;
-  }
-}
