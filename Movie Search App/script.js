@@ -7,6 +7,7 @@ let movieTime;
 
 const movieFunc = async function () {
   const title = inputBox.value;
+  movieContainer.innerHTML = "";
 
   try {
     const response = await fetch(
