@@ -112,6 +112,7 @@ const getWeatherr = function () {
     } catch (err) {
       console.error(err);
       weatherCard.innerHTML = `<p>${err}</p>`;
+      forecastContainer.innerHTML = "";
     }
   };
 
