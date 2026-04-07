@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import { useContext } from "react";
 import { CartContext } from "../context/CartContext";
-import { WishlistContext } from "../context/WishListContext";
+import { WishlistContext } from "../context/WishlistContext";
 
 export default function ProductDetail() {
   const { id } = useParams();
