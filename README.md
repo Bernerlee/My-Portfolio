@@ -12,11 +12,13 @@ I enjoy learning new technologies, solving real-world problems, and continuously
 ⚛️ Working with React and modern JavaScript
 🌐 Exploring Web3 and blockchain technologies
 📈 Committed to continuous learning and growth
+
 🛠️ Tech Stack
 Frontend: HTML, CSS, JavaScript, React
 Styling: Tailwind CSS, CSS Modules
 Tools: Git, GitHub, VS Code
 Other: REST APIs, Responsive Design
+
 📂 Projects
 
 Here are some of the projects included in this repository:
@@ -83,13 +85,15 @@ npm install
 
 # Start development server
 npm run dev
+
 📌 Features
 Responsive design across devices
 Clean and modern UI
 Reusable components
 API integration
 Organized project structure
-📈 What I’m Working On
+
+📈 What I’m Working On ?
 Improving my React skills
 Building more real-world projects
 Exploring Web3 development
