@@ -1,5 +1,3 @@
-Here’s a clean, professional README.md you can use for your portfolio repo. You can copy and paste this directly into your GitHub README and tweak where needed.
-
 💼 My Portfolio
 
 Welcome to my developer portfolio!
