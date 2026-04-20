@@ -20,7 +20,7 @@ const Cart = () => {
           <img src={item.image} style={styles.image} />
 
           <div>
-            <h4>{item.title}</h4>
+            <h4 style={{ textAlign: "center" }}>{item.title}</h4>
             <p style={{ textAlign: "center" }}>${item.price}</p>
           </div>
 
@@ -69,12 +69,17 @@ const styles = {
   item: {
     display: "flex",
     alignItems: "center",
+    gap: "15px",
     justifyContent: "space-between",
     marginBottom: "15px",
   },
+  // item: {
+  //   display: "grid",
+  //   gridTemplateColumns: "auto auto auto",
+  // },
 
   image: {
-    width: "150px",
+    width: "100px",
     objectFit: "contain",
   },
 
