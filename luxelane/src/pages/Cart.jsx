@@ -69,7 +69,7 @@ const styles = {
   item: {
     display: "flex",
     alignItems: "center",
-    gap: "15px",
+    gap: "5px",
     justifyContent: "space-between",
     marginBottom: "15px",
   },
