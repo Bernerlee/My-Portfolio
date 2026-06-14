@@ -25,6 +25,7 @@ export default function Navbar() {
         >
           Shop
         </NavLink>
+
         <NavLink
           to="/cart"
           style={({ isActive }) => (isActive ? styles.activeLink : styles.link)}
