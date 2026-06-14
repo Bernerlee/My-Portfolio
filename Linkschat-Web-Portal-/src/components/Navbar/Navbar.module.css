@@ -1,0 +1,81 @@
+.header {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 100;
+  border-bottom: 1px solid #eee;
+}
+
+.navbar {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.logoImage {
+  height: 98px;
+  width: auto;
+  object-fit: contain;
+}
+
+.logoIcon {
+  width: 40px;
+  height: 40px;
+  background: #5bbce4;
+  border-radius: 10px;
+}
+
+.navLinks {
+  display: flex;
+  gap: 2rem;
+}
+
+.downloadBtn {
+  padding: 12px 24px;
+  border-radius: 30px;
+  background: #5bbce4;
+  color: white;
+}
+
+.menuBtn {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navLinks,
+  .downloadBtn {
+    display: none;
+  }
+
+  .menuBtn {
+    display: block;
+  }
+
+  .mobileMenu {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 20px;
+    background: white;
+  }
+}
+
+.active {
+  color: #5bbce4;
+  font-weight: 600;
+}

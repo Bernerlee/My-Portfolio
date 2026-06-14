@@ -1,0 +1,47 @@
+.testimonials {
+  padding: 7rem 0;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.heading h2 {
+  font-size: 3rem;
+}
+
+.card {
+  background: white;
+  padding: 3rem;
+  border-radius: 24px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card h3 {
+  margin-bottom: 1rem;
+}
+
+.card p {
+  color: #64748b;
+  line-height: 1.8;
+}
+
+:global(.swiper-pagination-bullet) {
+  width: 6px;
+  height: 6px;
+  background: #94a3b8;
+  opacity: 1;
+}
+
+:global(.swiper-pagination-bullet-active) {
+  background: #5bbce4;
+  transform: scale(1.2);
+}
+
+.swiper :global(.swiper-button-next),
+.swiper :global(.swiper-button-prev) {
+  color: #5bbce4;
+}

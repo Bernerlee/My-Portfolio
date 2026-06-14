@@ -1,0 +1,33 @@
+.footer {
+  padding: 5rem 0 2rem;
+  background: #020617;
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 3rem;
+}
+
+.grid h4 {
+  margin-bottom: 1rem;
+}
+
+.grid a {
+  display: block;
+  margin-bottom: 0.7rem;
+  color: #94a3b8;
+}
+
+.bottom {
+  margin-top: 4rem;
+  text-align: center;
+  color: #64748b;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

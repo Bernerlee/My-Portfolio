@@ -1,0 +1,31 @@
+.stats {
+  padding: 5rem 0;
+  background: #0f172a;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.card {
+  text-align: center;
+  color: white;
+}
+
+.card h3 {
+  font-size: 3rem;
+  color: #60a5fa;
+}
+
+.card p {
+  margin-top: 0.5rem;
+  color: #cbd5e1;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
