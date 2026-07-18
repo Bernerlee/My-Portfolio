@@ -1,9 +1,11 @@
-import { Navigate } from "react-router-dom";
+//import { Navigate } from "react-router-dom";
 
 function ProtectedRoute({ children }) {
-  const user = null;
+  // const user = null;
 
-  return user ? children : <Navigate to="/login" replace />;
+  // return user ? children : <Navigate to="/login" replace />;
+
+  return children;
 }
 
 export default ProtectedRoute;
