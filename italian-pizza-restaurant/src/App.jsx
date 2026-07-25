@@ -1,7 +1,7 @@
+import Navbar from "./components/layout/Navbar/Navbar";
+
 function App() {
-  return (
-    <h1 className="text-5xl font-bold text-red-500">Tailwind is Working 🚀</h1>
-  );
+  return <Navbar />;
 }
 
 export default App;

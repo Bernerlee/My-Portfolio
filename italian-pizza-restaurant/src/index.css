@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: #ca2f06;
+  --color-cream: #f8f1e8;
+  --color-text: #111111;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -10,5 +16,14 @@ html {
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  min-height: 100vh;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
 }
