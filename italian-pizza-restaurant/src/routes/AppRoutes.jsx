@@ -11,21 +11,24 @@ import BookNow from "../pages/BookNow";
 import PasswordProtected from "../pages/PasswordProtected";
 import Licenses from "../pages/Licenses";
 import Changelog from "../pages/Changelog";
+import MainLayout from "../layouts/MainLayout";
 
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/menu" element={<Menu />} />
-      <Route path="/menu/:id" element={<MenuSingle />} />
-      <Route path="/blog" element={<Blog />} />
-      <Route path="/blog/:slug" element={<BlogSingle />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/book" element={<BookNow />} />
-      <Route path="/password" element={<PasswordProtected />} />
-      <Route path="/licenses" element={<Licenses />} />
-      <Route path="/changelog" element={<Changelog />} />
+      <Route element={<MainLayout />}>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/menu" element={<Menu />} />
+        <Route path="/menu/:id" element={<MenuSingle />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:slug" element={<BlogSingle />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/book" element={<BookNow />} />
+        <Route path="/password" element={<PasswordProtected />} />
+        <Route path="/licenses" element={<Licenses />} />
+        <Route path="/changelog" element={<Changelog />} />
+      </Route>
     </Routes>
   );
 };
