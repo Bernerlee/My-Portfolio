@@ -1,23 +1,25 @@
-import Navbar from "../../layout/Navbar/Navbar";
+import Container from "../../common/Container";
+import HeroHeading from "./HeroHeading";
+import HeroBottom from "./HeroBottom";
 
-import heroBackground from "../../../assets/images/hero-bg.png";
+import heroBg from "../../../assets/images/hero-bg.png";
 
 const Hero = () => {
   return (
-    <section className="relative flex min-h-screen flex-col overflow-hidden bg-[#F8F1E8]">
+    <section className="relative overflow-hidden bg-[#F8F1E8] pt-32 pb-24">
       {/* Background Texture */}
       <img
-        src={heroBackground}
+        src={heroBg}
         alt=""
         aria-hidden="true"
         className="absolute inset-0 h-full w-full object-cover pointer-events-none select-none"
       />
 
-      {/* Navbar */}
-      <Navbar />
+      <Container className="relative z-10">
+        <HeroHeading />
 
-      {/* Hero Content */}
-      <div className="relative z-10">{/* We'll build this next */}</div>
+        <HeroBottom />
+      </Container>
     </section>
   );
 };

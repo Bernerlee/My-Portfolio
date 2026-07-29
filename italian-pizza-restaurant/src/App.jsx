@@ -1,7 +1,7 @@
-import Navbar from "./components/layout/Navbar/Navbar";
+import MainLayout from "./layouts/MainLayout";
 
 function App() {
-  return <Navbar />;
+  return <MainLayout />;
 }
 
 export default App;
