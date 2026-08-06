@@ -21,8 +21,8 @@ const Testimonials = () => {
         {/* Card */}
         <div className="grid overflow-hidden rounded-[28px] lg:grid-cols-2">
           {/* Image Side */}
-          <div className="bg-[#CA2F06] p-5">
-            <div className="overflow-hidden rounded-[22px]">
+          <div className="flex items-center justify-center bg-[#CA2F06] p-6">
+            <div className="h-[500px] w-[460px] overflow-hidden rounded-[22px]">
               <img
                 src={customerImage}
                 alt="Customer"
@@ -32,13 +32,13 @@ const Testimonials = () => {
           </div>
 
           {/* Testimonial */}
-          <div className="flex min-h-[520px] flex-col items-center justify-center bg-white px-16 text-center">
-            <span className="mb-8 text-8xl font-bold leading-none text-[#CA2F06]">
+          <div className="flex h-[560px] flex-col items-center justify-center bg-white px-16 text-center">
+            <span className="mb-1 text-8xl font-bold leading-none text-[#CA2F06]">
               “
             </span>
 
             <p
-              className="max-w-md text-[34px] leading-[1.5] text-[#333]"
+              className="max-w-md text-[32px] leading-[1.5] text-[#333]"
               style={{ fontFamily: "Instrument Serif" }}
             >
               The ambiance is perfect, and the dishes are truly a work of art.
