@@ -1,6 +1,7 @@
 import AboutSection from "../components/home/AboutSection/AboutSection";
 import BlogSection from "../components/home/BlogSection/BlogSection";
 import BrandBanner from "../components/home/BrandBanner/BrandBanner";
+import CTASection from "../components/home/CTASection/CTASection";
 import ExplorePizza from "../components/home/ExplorePizza/ExplorePizza";
 import Hero from "../components/home/Hero/Hero";
 import NewestPizza from "../components/home/NewestPizza/NewestPizza";
@@ -18,6 +19,7 @@ const Home = () => {
       <OurApproach />
       <Testimonials />
       <BlogSection />
+      <CTASection />
     </>
   );
 };
