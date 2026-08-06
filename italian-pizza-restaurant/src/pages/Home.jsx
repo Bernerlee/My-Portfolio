@@ -1,4 +1,5 @@
 import AboutSection from "../components/home/AboutSection/AboutSection";
+import BlogSection from "../components/home/BlogSection/BlogSection";
 import BrandBanner from "../components/home/BrandBanner/BrandBanner";
 import ExplorePizza from "../components/home/ExplorePizza/ExplorePizza";
 import Hero from "../components/home/Hero/Hero";
@@ -16,6 +17,7 @@ const Home = () => {
       <BrandBanner />
       <OurApproach />
       <Testimonials />
+      <BlogSection />
     </>
   );
 };
