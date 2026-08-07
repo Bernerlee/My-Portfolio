@@ -11,27 +11,37 @@ import Container from "../../common/Container";
 import pizza from "../../../assets/images/hero-pizza.png";
 import tomato from "../../../assets/images/tomato.png";
 import basil from "../../../assets/images/basil.png";
+import logo from "../../../assets/images/logo-white.svg";
 
 const Footer = () => {
   return (
     <footer className="overflow-hidden bg-primary text-white">
       {/* Top Banner */}
-      <div className="relative border-b border-white/20">
-        <h2
-          className="overflow-hidden whitespace-nowrap text-center leading-none text-white"
-          style={{
-            fontFamily: "'Masking Renta', serif",
-            fontSize: "17rem",
-          }}
-        >
-          REAL FLAME
-        </h2>
+      {/* Top Banner */}
+      <div className="border-b border-white/20 overflow-hidden py-8">
+        <div className="flex items-center justify-center whitespace-nowrap">
+          <h2
+            className="leading-none text-white"
+            style={{
+              fontFamily: "'Masking Renta', serif",
+              fontSize: "17rem",
+            }}
+          >
+            REAL
+          </h2>
 
-        <img
-          src={pizza}
-          alt=""
-          className="absolute left-1/2 top-1/2 w-56 -translate-x-1/2 -translate-y-1/2"
-        />
+          <img src={pizza} alt="Pizza" className="mx-6 w-[240px] shrink-0" />
+
+          <h2
+            className="leading-none text-white"
+            style={{
+              fontFamily: "'Masking Renta', serif",
+              fontSize: "17rem",
+            }}
+          >
+            FLAME
+          </h2>
+        </div>
       </div>
 
       {/* Footer Content */}
@@ -75,7 +85,7 @@ const Footer = () => {
               ))}
             </div>
 
-            <img src="/logo.svg" alt="Pizzaro" className="mt-24 w-64" />
+            <img src={logo} alt="Pizzaro" className="mt-24 w-64" />
           </div>
 
           {/* Main Pages */}
@@ -134,7 +144,7 @@ const Footer = () => {
             <p className="mt-16 text-sm leading-7">
               © 2025 Copyright - Pizzaro
               <br />
-              Designed By "Name"
+              Implemented By Barnabas
               <br />
               Powered By Framer
             </p>
