@@ -1,5 +1,11 @@
-function About() {
-  return <div>About</div>;
-}
+import AboutHero from "../components/about/AboutHero/AboutHero";
+
+const About = () => {
+  return (
+    <>
+      <AboutHero />
+    </>
+  );
+};
 
 export default About;
