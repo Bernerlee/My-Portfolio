@@ -1,11 +1,11 @@
-import BlogCard from "../components/blog/BlogCard";
+import BlogCard from "./BlogCard";
 
-import blogImage1 from "../assets/images/blog-1.png";
-import blogImage2 from "../assets/images/blog-2.png";
-import blogImage3 from "../assets/images/blog-3.png";
-import blogImage4 from "../assets/images/blog-4.png";
-import blogImage5 from "../assets/images/blog-5.png";
-import blogImage6 from "../assets/images/blog-6.png";
+import blogImage1 from "../../assets/images/blog-1.png";
+import blogImage2 from "../../assets/images/blog-2.png";
+import blogImage3 from "../../assets/images/blog-3.png";
+import blogImage4 from "../../assets/images/blog-4.png";
+import blogImage5 from "../../assets/images/blog-5.png";
+import blogImage6 from "../../assets/images/blog-6.png";
 
 const posts = [
   {
@@ -46,7 +46,7 @@ const posts = [
   },
 ];
 
-const Blogg = () => {
+const BlogComponent = () => {
   return (
     <main className="min-h-screen bg-[#F8F1E8] px-6 py-20">
       {/* Header */}
@@ -72,4 +72,4 @@ const Blogg = () => {
   );
 };
 
-export default Blogg;
+export default BlogComponent;
