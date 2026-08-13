@@ -46,7 +46,7 @@ const posts = [
   },
 ];
 
-const Blog = () => {
+const Blogg = () => {
   return (
     <main className="min-h-screen bg-[#F8F1E8] px-6 py-20">
       {/* Header */}
@@ -72,4 +72,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default Blogg;
