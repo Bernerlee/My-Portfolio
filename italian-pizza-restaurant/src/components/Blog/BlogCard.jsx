@@ -25,7 +25,7 @@ const BlogCard = ({ post }) => {
         </h2>
 
         <Link
-          to="/blog-single"
+          to={`/blog/${post.title}`}
           className="mt-5 inline-flex rounded-full bg-[#CA2F06] px-5 py-2.5 text-[8px] font-bold uppercase text-white transition hover:bg-[#a92504]"
         >
           Read Full Blog
