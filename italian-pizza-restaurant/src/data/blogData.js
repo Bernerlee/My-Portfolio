@@ -1,3 +1,4 @@
+import blogImage1 from "../../assets/images/blog-1.png";
 import blogImage2 from "../../assets/images/blog-2.png";
 import blogImage3 from "../../assets/images/blog-3.png";
 import blogImage4 from "../../assets/images/blog-4.png";
@@ -265,5 +266,59 @@ export const blogPosts = [
 
     conclusion:
       "Our seasonal menu is a reflection of how we think about food: stay curious, respect the ingredients, and never stop looking for the next great combination.",
+  },
+  {
+    slug: "the-art-of-flavor-how-we-craft-each-plate-with-care",
+
+    title: "The Art of Flavor: How We Craft Each Plate with Care.",
+
+    image: blogImage1,
+
+    category: "RESTAURANT",
+
+    date: "12 Mar, 2024",
+
+    author: "Cody Fisher",
+
+    authorRole: "Editor",
+
+    authourImage,
+
+    introduction:
+      "Welcome to Pizzaro! This year, we invite you behind the scenes to witness the artistry and dedication that define our pizzas.",
+
+    sections: [
+      {
+        heading: "Why Choose Pizzaro?",
+        content:
+          "At Pizzaro, pizza transcends mere sustenance; it is an art form. We are unwavering in our pursuit of excellence.",
+      },
+      {
+        heading: "1. The Dough: Our Foundation",
+        content:
+          "Our dough is crafted from a special mix of flours and allowed to rest just right.",
+      },
+      {
+        heading: "2. The Sauce: Our Passion",
+        content:
+          "Crafted with love, our sauce features sun-kissed tomatoes, gently simmered with aromatic herbs and spices.",
+      },
+      {
+        heading: "3. The Toppings: Our Inspiration",
+        content:
+          "We are committed to sourcing only the freshest, highest-quality toppings from local farms and trusted producers.",
+      },
+    ],
+
+    quote: {
+      text: "Let Us Create A Pizza That Tells Your Story.",
+      author: "Chef Lorenzo",
+    },
+
+    conclusion: {
+      heading: "The Joy of Sharing",
+      content:
+        "Pizza is a language everyone understands, perfect for enjoying with loved ones.",
+    },
   },
 ];
