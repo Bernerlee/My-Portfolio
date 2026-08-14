@@ -1,13 +1,14 @@
-import blogImage1 from "../../assets/images/blog-1.png";
-import blogImage2 from "../../assets/images/blog-2.png";
-import blogImage3 from "../../assets/images/blog-3.png";
-import blogImage4 from "../../assets/images/blog-4.png";
-import blogImage5 from "../../assets/images/blog-5.png";
-import blogImage6 from "../../assets/images/blog-6.png";
+import blogImage1 from "../assets/images/blog-1.png";
+import blogImage2 from "../assets/images/blog-2.png";
+import blogImage3 from "../assets/images/blog-3.png";
 
-import authourImage from "../../assets/images/AuthourImage.png";
+import blogImage4 from "../assets/images/blog-4.png";
+import blogImage5 from "../assets/images/blog-5.png";
+import blogImage6 from "../assets/images/blog-6.png";
 
-export const blogPosts = [
+import authourImage from "../assets/images/AuthourImage.png";
+
+export const blogData = [
   {
     slug: "a-taste-of-tradition",
     category: "CHINESE FOOD",
@@ -15,7 +16,7 @@ export const blogPosts = [
     title: "A Taste of Tradition: The Story Behind Our Signature Dish.",
 
     author: "Eileen Yin-Fei Lo",
-    authourImage,
+    authourImage: authourImage,
     authorRole: "Editor",
 
     image: blogImage2,
@@ -68,7 +69,7 @@ export const blogPosts = [
 
     author: "Marco Rossi",
     authorRole: "Food Editor",
-    authourImage,
+    authourImage: authourImage,
 
     image: blogImage3,
 
@@ -120,7 +121,7 @@ export const blogPosts = [
 
     author: "Daniel Wong",
     authorRole: "Food Writer",
-    authourImage,
+    authourImage: authourImage,
 
     image: blogImage4,
 
@@ -172,7 +173,7 @@ export const blogPosts = [
 
     author: "Sofia Chen",
     authorRole: "Editor",
-    authourImage,
+    authourImage: authourImage,
 
     image: blogImage5,
 
@@ -224,7 +225,7 @@ export const blogPosts = [
 
     author: "Fuchsia Dunlop",
     authorRole: "Food Editor",
-    authourImage,
+    authourImage: authourImage,
 
     image: blogImage6,
 
@@ -282,7 +283,7 @@ export const blogPosts = [
 
     authorRole: "Editor",
 
-    authourImage,
+    authourImage: authourImage,
 
     introduction:
       "Welcome to Pizzaro! This year, we invite you behind the scenes to witness the artistry and dedication that define our pizzas.",

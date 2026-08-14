@@ -18,7 +18,7 @@ const BlogSingle = () => {
   return (
     <main className="bg-[#fff7ef] min-h-screen">
       {/* Header */}
-      <section className="pt-10 pb-12">
+      <section className="pt-24 pb-12">
         <div className="mx-auto max-w-5xl px-6 text-center">
           <p className="mb-4 text-xs">⦿ HOME / BLOG / BLOG SINGLE</p>
 
@@ -29,9 +29,9 @@ const BlogSingle = () => {
           {/* Author information */}
           <div className="mt-8 flex items-center justify-between max-w-3xl mx-auto">
             <div className="flex items-center gap-3 text-left">
-              {blog.authorImage && (
+              {blog.authourImage && (
                 <img
-                  src={blog.authorImage}
+                  src={blog.authourImage}
                   alt={blog.author}
                   className="h-10 w-10 rounded-full object-cover"
                 />
