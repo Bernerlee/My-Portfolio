@@ -7,7 +7,7 @@ import pizza3 from "../assets/images/menu-3.png";
 import pizza4 from "../assets/images/menu-4.png";
 import pizza5 from "../assets/images/menu-5.png";
 import pizza6 from "../assets/images/menu-6.png";
-import menuCtaImage from "../assets/images/cta-bg.png";
+import menuCtaImage from "../../assets/images/cta-bg.png";
 
 const menuItems = [
   {
