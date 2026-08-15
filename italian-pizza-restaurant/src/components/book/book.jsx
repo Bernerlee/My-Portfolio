@@ -1,7 +1,7 @@
 import { ChevronDown, CalendarDays } from "lucide-react";
 
 // Change this import to the actual name/path of your exported image
-import reservationImage from "../assets/images/reservation.jpg";
+import reservationImage from "../../assets/images/blog-2.png";
 
 const Book = () => {
   return (
