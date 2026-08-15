@@ -1,5 +1,11 @@
+import Book from "../components/book/book";
+
 function BookNow() {
-  return <div>BookNow</div>;
+  return (
+    <>
+      <Book />
+    </>
+  );
 }
 
 export default BookNow;
