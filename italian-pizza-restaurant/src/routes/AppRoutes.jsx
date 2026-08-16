@@ -12,6 +12,7 @@ import PasswordProtected from "../pages/PasswordProtected";
 import Licenses from "../pages/Licenses";
 import Changelog from "../pages/Changelog";
 import MainLayout from "../layouts/MainLayout";
+import NotFound from "../pages/NotFound";
 
 const AppRoutes = () => {
   return (
@@ -28,6 +29,9 @@ const AppRoutes = () => {
         <Route path="/password" element={<PasswordProtected />} />
         <Route path="/licenses" element={<Licenses />} />
         <Route path="/changelog" element={<Changelog />} />
+
+        {/* 404 */}
+        <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
   );
