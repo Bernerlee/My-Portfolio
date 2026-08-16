@@ -1,5 +1,11 @@
+import MenuItems from "../components/menu/MenuItems";
+
 function Menu() {
-  return <div>Menu</div>;
+  return (
+    <>
+      <MenuItems />
+    </>
+  );
 }
 
 export default Menu;
