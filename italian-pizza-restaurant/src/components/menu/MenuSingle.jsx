@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { Star, ChevronDown } from "lucide-react";
-import menuData from "../data/menuData";
+import menuData from "../../data/menuData";
 
 function MenuSingle() {
   const { id } = useParams();
