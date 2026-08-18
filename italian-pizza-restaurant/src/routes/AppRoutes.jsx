@@ -3,7 +3,8 @@ import { Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import Menu from "../pages/Menu";
-import MenuSingle from "../pages/MenuSingle";
+import MenuSinglePage from "../pages/MenuSinglePage";
+
 import Blog from "../pages/Blog";
 import BlogSingle from "../pages/BlogSingle";
 import Contact from "../pages/Contact";
@@ -21,7 +22,7 @@ const AppRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/menu" element={<Menu />} />
-        <Route path="/menu/:id" element={<MenuSingle />} />
+        <Route path="/menu/:id" element={<MenuSinglePage />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:slug" element={<BlogSingle />} />
         <Route path="/contact" element={<Contact />} />
