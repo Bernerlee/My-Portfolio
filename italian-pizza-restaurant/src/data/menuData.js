@@ -7,10 +7,9 @@ import Image6 from "../assets/images/menu-6.png";
 
 const menuData = [
   {
-    
     name: "Punny Pepperoni",
     id: "punny-pepperoni",
-    price: 120.00,
+    price: 120.0,
     image: Image5,
 
     rating: 4.8,
@@ -26,13 +25,13 @@ const menuData = [
       {
         title: "1. Hand-Crafted Dough",
         content:
-          "Our dough is made daily using a traditional Neapolitan recipe. We allow the dough to rise slowly, developing a complex flavor and airy texture that perfectly complements our toppings."
+          "Our dough is made daily using a traditional Neapolitan recipe. We allow the dough to rise slowly, developing a complex flavor and airy texture that perfectly complements our toppings.",
       },
       {
         title: "2. Fresh Ingredients",
         content:
-          "We source only the freshest, highest-quality ingredients. From vine-ripened tomatoes to artisanal pepperoni, every component is selected for its superior taste and contribution to the overall flavor profile."
-      }
+          "We source only the freshest, highest-quality ingredients. From vine-ripened tomatoes to artisanal pepperoni, every component is selected for its superior taste and contribution to the overall flavor profile.",
+      },
     ],
 
     additionalDetails: {
@@ -45,14 +44,14 @@ const menuData = [
         "3. Thin Crust",
         "4. Classic",
         "5. Pepperoni",
-        "6. Tomato Sauce"
-      ]
-    }
+        "6. Tomato Sauce",
+      ],
+    },
   },
   {
     id: "sassy-greens",
     name: "Sassy Greens",
-    price: "20.00",
+    price: 20.0,
     rating: "4.9",
     reviews: "36",
     category: "VEGGIE PIZZA",
@@ -68,13 +67,13 @@ const menuData = [
       {
         title: "1. Hand-Crafted Dough",
         content:
-          "Our dough is made fresh every day using a traditional Neapolitan recipe. It is allowed to rise slowly, creating a light and airy crust that complements every topping."
+          "Our dough is made fresh every day using a traditional Neapolitan recipe. It is allowed to rise slowly, creating a light and airy crust that complements every topping.",
       },
       {
         title: "2. Fresh Ingredients",
         content:
-          "We carefully select fresh vegetables, herbs, and premium cheese to create a balanced combination of textures and flavors in every bite."
-      }
+          "We carefully select fresh vegetables, herbs, and premium cheese to create a balanced combination of textures and flavors in every bite.",
+      },
     ],
 
     additionalDetails: {
@@ -86,15 +85,15 @@ const menuData = [
         "3. Thin Crust",
         "4. Classic",
         "5. Extra Veggies",
-        "6. Tomato Sauce"
-      ]
-    }
+        "6. Tomato Sauce",
+      ],
+    },
   },
 
   {
     id: "mapo-tofu",
     name: "Mapo Tofu",
-    price: "120.00",
+    price: 120.0,
     rating: "4.8",
     reviews: "42",
     category: "SIGNATURE PIZZA",
@@ -110,13 +109,13 @@ const menuData = [
       {
         title: "1. Hand-Crafted Dough",
         content:
-          "Our dough is prepared fresh every morning and given enough time to develop its signature airy texture and rich flavor."
+          "Our dough is prepared fresh every morning and given enough time to develop its signature airy texture and rich flavor.",
       },
       {
         title: "2. Bold Flavors",
         content:
-          "We combine rich sauces, carefully selected toppings, and premium cheese to create layers of flavor that make every bite exciting."
-      }
+          "We combine rich sauces, carefully selected toppings, and premium cheese to create layers of flavor that make every bite exciting.",
+      },
     ],
 
     additionalDetails: {
@@ -128,15 +127,15 @@ const menuData = [
         "3. Thin Crust",
         "4. Classic",
         "5. Extra Toppings",
-        "6. Tomato Sauce"
-      ]
-    }
+        "6. Tomato Sauce",
+      ],
+    },
   },
 
   {
     id: "peking-duck",
     name: "Peking Duck",
-    price: "80.00",
+    price: 80.0,
     rating: "4.9",
     reviews: "40",
     category: "MEAT LOVERS",
@@ -152,13 +151,13 @@ const menuData = [
       {
         title: "1. Hand-Crafted Dough",
         content:
-          "Our dough is freshly prepared and slowly fermented to create a light interior with a beautifully crisp edge when baked."
+          "Our dough is freshly prepared and slowly fermented to create a light interior with a beautifully crisp edge when baked.",
       },
       {
         title: "2. Premium Toppings",
         content:
-          "We use carefully selected ingredients and premium meat toppings to create a rich, savory flavor that stands out in every slice."
-      }
+          "We use carefully selected ingredients and premium meat toppings to create a rich, savory flavor that stands out in every slice.",
+      },
     ],
 
     additionalDetails: {
@@ -170,15 +169,15 @@ const menuData = [
         "3. Thin Crust",
         "4. Classic",
         "5. Extra Meat",
-        "6. Tomato Sauce"
-      ]
-    }
+        "6. Tomato Sauce",
+      ],
+    },
   },
 
   {
     id: "cheesy-chuckle",
     name: "Cheesy Chuckle",
-    price: "50.00",
+    price: 50.0,
     rating: "4.7",
     reviews: "31",
     category: "CLASSIC PIZZAS",
@@ -194,13 +193,13 @@ const menuData = [
       {
         title: "1. Perfectly Baked Crust",
         content:
-          "Our dough is carefully prepared and baked at high heat to create a crisp outside while keeping the center light and soft."
+          "Our dough is carefully prepared and baked at high heat to create a crisp outside while keeping the center light and soft.",
       },
       {
         title: "2. Extra Cheese",
         content:
-          "We use premium mozzarella and carefully balanced cheese blends to create that rich, stretchy texture that makes every bite satisfying."
-      }
+          "We use premium mozzarella and carefully balanced cheese blends to create that rich, stretchy texture that makes every bite satisfying.",
+      },
     ],
 
     additionalDetails: {
@@ -212,15 +211,15 @@ const menuData = [
         "3. Thin Crust",
         "4. Classic",
         "5. Extra Cheese",
-        "6. Tomato Sauce"
-      ]
-    }
+        "6. Tomato Sauce",
+      ],
+    },
   },
 
   {
     id: "crispy-crust",
     name: "Crispy Crust",
-    price: "30.00",
+    price: 30.0,
     rating: "4.8",
     reviews: "35",
     category: "CLASSIC PIZZAS",
@@ -236,13 +235,13 @@ const menuData = [
       {
         title: "1. The Perfect Crust",
         content:
-          "Our dough is prepared with carefully selected ingredients and baked until the edges become golden and crisp while the center remains deliciously tender."
+          "Our dough is prepared with carefully selected ingredients and baked until the edges become golden and crisp while the center remains deliciously tender.",
       },
       {
         title: "2. Fresh Toppings",
         content:
-          "Fresh ingredients are added generously to create a balanced combination of flavor and texture without overpowering the signature crust."
-      }
+          "Fresh ingredients are added generously to create a balanced combination of flavor and texture without overpowering the signature crust.",
+      },
     ],
 
     additionalDetails: {
@@ -254,10 +253,10 @@ const menuData = [
         "3. Thin Crust",
         "4. Classic",
         "5. Extra Crispy",
-        "6. Tomato Sauce"
-      ]
-    }
-  }
+        "6. Tomato Sauce",
+      ],
+    },
+  },
 ];
 
 export default menuData;
