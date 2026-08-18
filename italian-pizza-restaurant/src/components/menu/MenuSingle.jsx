@@ -120,7 +120,7 @@ function MenuSingle() {
               </p>
 
               <div className="mt-6 space-y-3">
-                {menu.additionalDetails?.items?.map((item, index) => (
+                {menu.additionalDetails?.options?.map((item, index) => (
                   <p key={index} className="text-sm">
                     {item}
                   </p>

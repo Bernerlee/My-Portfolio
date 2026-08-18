@@ -38,7 +38,7 @@ const menuData = [
       description:
         "We start with our signature dough, add a layer of our homemade tomato sauce, and top it with generous slices of spicy pepperoni and a blend of mozzarella and provolone cheeses.",
 
-      items: [
+      options: [
         "1. Spicy",
         "2. Cheesy",
         "3. Thin Crust",
