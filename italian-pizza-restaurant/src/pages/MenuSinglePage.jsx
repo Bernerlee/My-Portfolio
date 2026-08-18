@@ -1,9 +1,11 @@
-function MenuSingle() {
+import MenuSingle from "../components/menu/MenuSingle";
+
+function MenuSinglePage() {
   return (
     <>
-      <MenuSingl />
+      <MenuSingle />
     </>
   );
 }
 
-export default MenuSingle;
+export default MenuSinglePage;
