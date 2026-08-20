@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Navigate, NavLink, useNavigate } from "react-router-dom";
 
 import Container from "../../common/Container";
 import Button from "../../common/Button";
@@ -7,6 +7,7 @@ import { navLinks } from "../../../data/navigation";
 import logo from "../../../assets/images/logo.svg";
 
 const Navbar = () => {
+  const navigate = useNavigate();
   return (
     <header className="sticky top-0 z-50 w-full bg-white py-6">
       <Container>
@@ -38,7 +39,10 @@ const Navbar = () => {
 
           {/* Right Side */}
           <div className="flex items-center gap-4">
-            <Button className="hidden px-6 py-3 lg:inline-flex">
+            <Button
+              className="hidden px-6 py-3 lg:inline-flex"
+              onClick={() => navigate("/menu")}
+            >
               Explore Menu
             </Button>
 
