@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 
 import Container from "../../common/Container";
@@ -7,7 +8,9 @@ import { navLinks } from "../../../data/navigation";
 import logo from "../../../assets/images/logo.svg";
 
 const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navigate = useNavigate();
+
   return (
     <header className="sticky top-0 z-50 w-full bg-white py-6">
       <Container>
@@ -39,25 +42,62 @@ const Navbar = () => {
 
           {/* Right Side */}
           <div className="flex items-center gap-4">
+            {/* Explore Menu - Desktop */}
             <Button
-              className="hidden px-6 py-3 lg:inline-flex"
               onClick={() => navigate("/menu")}
+              className="hidden px-6 py-3 lg:inline-flex"
             >
               Explore Menu
             </Button>
 
-            {/* Mobile Menu Button */}
+            {/* Hamburger - Mobile & Tablet */}
             <button
-              className="flex h-12 w-12 items-center justify-center rounded-full bg-black transition hover:opacity-90"
-              aria-label="Open menu"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              className="flex h-12 w-12 items-center justify-center rounded-full bg-black transition hover:opacity-90 lg:hidden"
+              aria-label="Toggle navigation menu"
+              aria-expanded={isMenuOpen}
             >
               <div className="space-y-1">
-                <span className="block h-0.5 w-5 bg-white"></span>
-                <span className="block h-0.5 w-5 bg-white"></span>
+                <span className="block h-0.5 w-5 bg-white" />
+                <span className="block h-0.5 w-5 bg-white" />
               </div>
             </button>
           </div>
         </nav>
+
+        {/* Mobile Navigation */}
+        {isMenuOpen && (
+          <div className="mt-6 border-t border-black/10 pt-6 lg:hidden">
+            <ul className="flex flex-col gap-5">
+              {navLinks.map((link) => (
+                <li key={link.id}>
+                  <NavLink
+                    to={link.path}
+                    onClick={() => setIsMenuOpen(false)}
+                    className={({ isActive }) =>
+                      `text-sm font-medium uppercase tracking-wide ${
+                        isActive ? "text-primary" : "text-black"
+                      }`
+                    }
+                  >
+                    {link.name}
+                  </NavLink>
+                </li>
+              ))}
+            </ul>
+
+            {/* Mobile Explore Menu */}
+            <Button
+              onClick={() => {
+                setIsMenuOpen(false);
+                navigate("/menu");
+              }}
+              className="mt-6 w-full justify-center"
+            >
+              Explore Menu
+            </Button>
+          </div>
+        )}
       </Container>
     </header>
   );
