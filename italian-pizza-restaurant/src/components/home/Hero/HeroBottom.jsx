@@ -2,8 +2,10 @@ import Container from "../../common/Container";
 import Button from "../../common/Button";
 
 import heroCard from "../../../assets/images/hero-card.png";
+import { useNavigate } from "react-router-dom";
 
 const HeroBottom = () => {
+  const navigate = useNavigate();
   return (
     <Container>
       <div className="flex flex-col items-center gap-12 py-20 lg:flex-row lg:justify-between">
@@ -33,7 +35,9 @@ const HeroBottom = () => {
             and baked to perfection every single day.
           </p>
 
-          <Button className="px-8 py-4">Explore Menu</Button>
+          <Button className="px-8 py-4" onClick={() => navigate("/menu")}>
+            Explore Menu
+          </Button>
         </div>
       </div>
     </Container>
