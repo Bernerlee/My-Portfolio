@@ -8,7 +8,7 @@ import logo from "../../../assets/images/logo.svg";
 
 const Navbar = () => {
   return (
-    <header className="absolute top-0 left-0 z-50 w-full py-6">
+    <header className="sticky top-0 z-50 w-full bg-white py-6">
       <Container>
         <nav className="flex items-center justify-between">
           {/* Logo */}
